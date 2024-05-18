@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* bagian boddy untuk responsive dekstop */
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    background: linear-gradient(45deg, #0D47A1, #2196F3, #64B5F6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    background-color: #FFF;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+header {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+header img {
+    padding: 16px;
+    width: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 24px;
+}
+main a {
+    margin: 8px 0;
+    text-decoration: none;
+}
+main button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 300px; 
+    padding: 16px;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    background-color: #f0f0f0;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.3s;
+}
+main button:hover {
+    background-color: #e0e0e0;
+}
+main p {
+    margin: 0;
+    font-size: large;
+}
+button ion-icon {
+    height: 24px;
+    font-size: 32px;
+}
+@media (min-width: 768px) {
+    .container {
+        width: 70%;
+    }
+    header img {
+        width: 150px;
+    }
+    main button {
+        width: 80%;
+    }
+}

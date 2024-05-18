@@ -1,0 +1,2 @@
+NB: 1.inget perbedaaan max-widht dan widht untuk reposnsive di desktop dan mobile
+    2.
